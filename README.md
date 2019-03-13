@@ -27,8 +27,6 @@ reference: https://cloud.google.com/vision/automl/docs/tutorial
 
 After 3667 flower images are imported, we could use free tier of AutoML to train our model. The evaluation results provided are as follows. The average precision is 0.996; Based on a score threshold of 0.5, Precision is 98.466% and Recall is 96.396%. (A high precision model produces fewer false positives, and a high recall model produces fewer false negatives.) Overall, the AutoML Vision trained model of flower dataset has a really good performance.
 
-![image](https://user-images.githubusercontent.com/43686840/54245122-cafc1700-44ec-11e9-9ad3-a6b16138af22.png)
-![image](https://user-images.githubusercontent.com/43686840/54245412-f9c6bd00-44ed-11e9-81fb-fe2189d25f35.png)
 
 ### Predict with Vision API
 
@@ -36,8 +34,6 @@ In this step, we will go further to predict two flower pictures (one is daisy an
 
 The predicted results for both images are really good. The predicted class names are correct with high predicted class scores, which are 0.99986732006073 and 0.9999873638153076 respectively for daisy and sunflower.
 
-![image](https://user-images.githubusercontent.com/43686840/54245376-cedc6900-44ed-11e9-9f19-0c3afea85a03.png)
-![image](https://user-images.githubusercontent.com/43686840/54245378-d13ec300-44ed-11e9-9a28-9a33cbb118e6.png)
 
 ## Conclusion 
 AutoML Vision, a graphical drag-and-drop tool that lets users leverage Google’s cloud computing backend to train self-learning object recognition and image detection models, is really useful for data analysis, which saves us time to train the model by ourselves and provides high-performance models. What we need to do is only to learn how to call APIs. 
