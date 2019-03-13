@@ -36,6 +36,9 @@ In this step, we will go further to predict two flower pictures (one is daisy an
 
 The predicted results for both images are really good. The predicted class names are correct with high predicted class scores, which are 0.99986732006073 and 0.9999873638153076 respectively for daisy and sunflower.
 
+![image](https://user-images.githubusercontent.com/43686840/54245376-cedc6900-44ed-11e9-9f19-0c3afea85a03.png)
+![image](https://user-images.githubusercontent.com/43686840/54245378-d13ec300-44ed-11e9-9a28-9a33cbb118e6.png)
+
 ## Conclusion 
 AutoML Vision, a graphical drag-and-drop tool that lets users leverage Google’s cloud computing backend to train self-learning object recognition and image detection models, is really useful for data analysis, which saves us time to train the model by ourselves and provides high-performance models. What we need to do is only to learn how to call APIs. 
 
