@@ -27,6 +27,8 @@ reference: https://cloud.google.com/vision/automl/docs/tutorial
 
 After 3667 flower images are imported, we could use free tier of AutoML to train our model. The evaluation results provided are as follows. The average precision is 0.996; Based on a score threshold of 0.5, Precision is 98.466% and Recall is 96.396%. (A high precision model produces fewer false positives, and a high recall model produces fewer false negatives.) Overall, the AutoML Vision trained model of flower dataset has a really good performance.
 
+![image](https://user-images.githubusercontent.com/43686840/54245566-82455d80-44ee-11e9-8b85-f85ab900dede.png)
+![image](https://user-images.githubusercontent.com/43686840/54245571-87a2a800-44ee-11e9-8573-ef74e321ed92.png)
 
 ### Predict with Vision API
 
